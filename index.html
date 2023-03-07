@@ -9,15 +9,19 @@
 </head>
 <body>
 
+  <div class="container-fluid p-5 bg-primary text-white text-center">
+    <h1>My First Bootstrap Page</h1>
+  </div>
+
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #CFB87C">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
         </li> 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Account
           </a>
           <ul class="dropdown-menu">
@@ -38,7 +42,8 @@
 
 <p class="container-fluid bg-light">
 Graduating senior in <a href="https://eas.uccs.edu/cs/academics/undergraduate-programs/bachelor-of-science-in-computer-science">computer science with a specialization cybersecurity</a>. 
-Background in agile software development, C/C++, Java, and team leadership interested in software development and cybersecurity.
+Background in agile software development, C/C++, Java, Ruby on Rails and team leadership interested in software development and cybersecurity. Along with my extensice technical skills, I am also 
+eligible for a security clearance. With my background in both cybersecurity and software development, I am confident that I am the ideal candidate for the position. 
 </p>
 
 <ul class="list-unstyled">
@@ -66,17 +71,24 @@ Background in agile software development, C/C++, Java, and team leadership inter
 </ul>
 
 <main role="main">
+  <!--Creating a div element that will be an album with verticle padding of 5 and light background-->
   <div class="album py-5 bg-light">
+    <!--creating a container that will hold the cards-->
     <div class="container">
+      <!--using a jumbotron to display "projects"-->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-6">Projects</h1>
         </div>
       </div>
+      <!--Creating a row that will hold 3 projects-->
       <div class="row">
         <div class="col-md-4">
+          <!--Creating a card for an individual project-->
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+            <!--Card image thumbnail-->
+            <img class="card-img-top img-thumbnail" src="./web-development-image.png" alt="Web Development Image">
+            <!--Creating the individual card-->
             <div class="card-body">
               <h2>Eco Clean Colorado</h2>
               <p class="card-text"><em><b>Website Development/ IP Analysis (Team-Based University Related)</b>
@@ -86,6 +98,7 @@ Background in agile software development, C/C++, Java, and team leadership inter
                 <li>Researched and implemented payment processing capabilities.</li>
                 <li>Implemented a Javascript backend to access PayPal.</li>
               </ul>
+              <!--Creating the button group-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View Project</button>
@@ -96,7 +109,7 @@ Background in agile software development, C/C++, Java, and team leadership inter
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+            <img class="card-img-top img-thumbnail" src="./AWS Logo.png" alt="Amazon Web Services Logo">
             <div class="card-body">
               <h2>Hosted Static Website</h2>
               <p class="card-text"><em><b>Website Development/ Amazon S3 Bucket (University Related)</b></em></p>
@@ -115,7 +128,7 @@ Background in agile software development, C/C++, Java, and team leadership inter
         </div>
         <div class="col-md-4">
           <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+            <img class="card-img-top" src="./Rails Logo .png" alt="Ruby on Rails Logo">
             <div class="card-body">
               <h2>Developing a Web App</h2>
               <p class="card-text"><em><b>Web App Development/ Agile Software Development (University Related)</b></em></p>
